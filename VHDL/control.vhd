@@ -18,7 +18,7 @@ architecture Behavioral of control is
 
 	type statetype is (S0, S1, S2, S3, S4);
 	signal state, nextstate: statetype;
-	signal cntk, cntn: std_logic_vector(4 downto 0);
+	signal cntk: std_logic_vector(4 downto 0);
 begin
 -- state register
 	process(clk, rst) 

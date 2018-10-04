@@ -28,7 +28,7 @@ architecture Behavioral of coder is
 -- ff clock enables
  signal ce0, ce1, ce2: std_logic;
 -- control signals
- signal ctrl0, ctrl1, ctrl2: std_logic;
+ signal ctrl0, ctrl2: std_logic;
 -- load signal for shift register
  signal load: std_logic; 
  
@@ -64,14 +64,14 @@ begin
 -- shift register
    sr0: sr port map(clk, rst, msg, load, msg_in);
 -- state machine 
-FSM0: control port map(clk, rst, en, ctrl0, ctrl2, load);
+   FSM0: control port map(clk, rst, en, ctrl0, ctrl2, load);
 -- registers
-	df0: dff port map(clk, rst, d0, ce0, q0);
-	df1: dff port map(clk, rst, d1, ce1, q1);
-	df2: dff port map(clk, rst, d2, ce2, q2);
-	ce0 <= ctrl2;
-	ce1 <= ctrl2;
-	ce2 <= ctrl2;
+   df0: dff port map(clk, rst, d0, ce0, q0);
+   df1: dff port map(clk, rst, d1, ce1, q1);
+   df2: dff port map(clk, rst, d2, ce2, q2);
+   ce0 <= ctrl0;
+   ce1 <= ctrl0;
+   ce2 <= ctrl0;
 	
 -- register interconection 
 	d1 <= q0 xor aux0;
@@ -79,12 +79,14 @@ FSM0: control port map(clk, rst, en, ctrl0, ctrl2, load);
 
 -- first mux
 	aux2 <= msg_in xor q2;
-	aux0 <= aux2 when ctrl0 = '1' else '0';
+	aux0 <= aux2 when ctrl2 = '0' else '0';
 	d0 <= aux0;
 	
 -- second mux
-	aux1 <= msg_in when ctrl0 = '1' else q2;
-    out_o <= aux1;
+	aux1 <= msg_in when ctrl2 = '0' else q2;
+    out_o <= aux1 when rst = '0' else '0';
+
+-- 	
 	
 	
 	

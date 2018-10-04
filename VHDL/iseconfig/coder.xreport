@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-10-04T11:23:54</DateModified>
+  <DateModified>2018-10-04T12:41:31</DateModified>
   <ModuleName>coder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>F:/ISE/CyclicCodeFPGA/VHDL/iseconfig/coder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/ISE/CyclicCodeFPGA/VHDL</ImplementationReportsDirectory>
+  <SavedFilePath>/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/iseconfig/coder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/</ImplementationReportsDirectory>
   <DateInitialized>2018-10-04T11:23:53</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

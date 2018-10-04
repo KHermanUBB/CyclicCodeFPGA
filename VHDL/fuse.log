@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe -prj /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder_beh.prj work.tb_coder 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/dff.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/main.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 38836 KB
+Fuse CPU Usage: 1840 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity sr [sr_default]
+Compiling architecture behavioral of entity control [control_default]
+Compiling architecture behavioral of entity dff [dff_default]
+Compiling architecture behavioral of entity coder [coder_default]
+Compiling architecture behavior of entity tb_coder
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe
+Fuse Memory Usage: 91936 KB
+Fuse CPU Usage: 1930 ms
+GCC CPU Usage: 600 ms

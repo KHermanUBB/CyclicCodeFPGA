@@ -1,0 +1,4 @@
+work	"control.vhd"
+work	"dff.vhd"
+work	"main.vhd"
+work	"sr.vhd"
