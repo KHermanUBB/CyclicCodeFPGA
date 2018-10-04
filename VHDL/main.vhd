@@ -22,22 +22,18 @@ architecture Behavioral of coder is
 -- serialized input
  signal msg_in: std_logic;
 -- ff inputs
- signal d0, d1, d2: std_logic;
+ signal d0, q2: std_logic;
 -- aux signals
  signal aux0, aux1, aux2: std_logic;
--- ff outputs
- signal q0, q1, q2: std_logic;
--- ff clock enables
- signal ce0, ce1, ce2: std_logic;
 -- control signals
  signal ctrl0, ctrl2: std_logic;
 -- load signal for shift register
  signal load: std_logic; 
  
  
- signal din: std_logic_vector(N-K downto 0);
- signal qout: std_logic_vector(N-K downto 0);
- signal gi: std_logic_vector(N-K downto 0);
+ signal din: std_logic_vector(N-K-1 downto 0);
+ signal qout: std_logic_vector(N-K-1 downto 0);
+ signal gi: std_logic_vector(N-K-1 downto 0):="001";
 
 -- csection for generate
  component csection 
@@ -87,7 +83,7 @@ begin
 --   ce2 <= ctrl0;
 	
 gen_code_label:  
-  for index in 0 to N-K generate  
+  for index in 0 to N-K-1 generate  
     begin  
 Csec: csection    
 		port map( clk => clk,
@@ -106,18 +102,15 @@ Csec: csection
 		   
   end generate; 
   din(0) <= d0; 
- gen_code_2:  
-  for ind in 1 to N-K generate  
+  gen_code_2:  
+  for ind in 1 to N-K-1 generate  
     begin  
          din(ind) <= qout(ind-1);		
   end generate; 
 	
--- register interconection 
-	d1 <= q0 xor aux0;
-   d2 <= q1;	
 
 -- first mux
-	aux2 <= msg_in xor q2;
+	aux2 <= msg_in xor qout(N-K-1);
 	aux0 <= aux2 when ctrl2 = '0' else '0';
 	d0 <= aux0;
 	

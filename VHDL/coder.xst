@@ -1,6 +1,9 @@
-set -tmpdir "F:/ISE/CyclicCodeFPGA/VHDL/xst/projnav.tmp"
-set -xsthdpdir "F:/ISE/CyclicCodeFPGA/VHDL/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn coder.prj
+-ofn coder
+-ofmt NGC
 -p xc6slx16-3-csg324
 -top coder
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn coder.prj

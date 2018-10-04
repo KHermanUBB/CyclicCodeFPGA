@@ -5,5 +5,92 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 22: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 24: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 25: <arg fmt="%s" index="1">msg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 41: <arg fmt="%s" index="1">state</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 43: <arg fmt="%s" index="1">en</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 51: <arg fmt="%s" index="1">cntk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 57: <arg fmt="%s" index="1">cntk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 75: <arg fmt="%s" index="1">state</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\csection.vhd" Line 28: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 116: Assignment to <arg fmt="%s" index="1">d1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 117: Assignment to <arg fmt="%s" index="1">d2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 29: Net &lt;<arg fmt="%s" index="1">q2</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 40: Net &lt;<arg fmt="%s" index="1">gi[3]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\ISE\CyclicCodeFPGA\VHDL\main.vhd</arg>&quot; line <arg fmt="%d" index="2">92</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gen_code_label[0].Csec</arg>&gt; of block &lt;<arg fmt="%s" index="4">csection</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\ISE\CyclicCodeFPGA\VHDL\main.vhd</arg>&quot; line <arg fmt="%d" index="2">92</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gen_code_label[1].Csec</arg>&gt; of block &lt;<arg fmt="%s" index="4">csection</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\ISE\CyclicCodeFPGA\VHDL\main.vhd</arg>&quot; line <arg fmt="%d" index="2">92</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gen_code_label[2].Csec</arg>&gt; of block &lt;<arg fmt="%s" index="4">csection</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\ISE\CyclicCodeFPGA\VHDL\main.vhd</arg>&quot; line <arg fmt="%d" index="2">92</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gen_code_label[3].Csec</arg>&gt; of block &lt;<arg fmt="%s" index="4">csection</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\ISE\CyclicCodeFPGA\VHDL\main.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">q</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_code_label[3].Csec</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">gi</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="new" >State <arg fmt="%s" index="1">s4</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">state</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="new" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
 </messages>
 

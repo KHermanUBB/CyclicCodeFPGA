@@ -19,3 +19,4 @@ xst -intstyle ise -ifn "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/Cyclic
 xst -intstyle ise -ifn "F:/ISE/CyclicCodeFPGA/VHDL/coder.xst" -ofn "F:/ISE/CyclicCodeFPGA/VHDL/coder.syr" 
 xst -intstyle ise -ifn "F:/ISE/CyclicCodeFPGA/VHDL/coder.xst" -ofn "F:/ISE/CyclicCodeFPGA/VHDL/coder.syr" 
 xst -intstyle ise -ifn "F:/ISE/CyclicCodeFPGA/VHDL/coder.xst" -ofn "F:/ISE/CyclicCodeFPGA/VHDL/coder.syr" 
+xst -intstyle ise -ifn "F:/ISE/CyclicCodeFPGA/VHDL/coder.xst" -ofn "F:/ISE/CyclicCodeFPGA/VHDL/coder.syr" 

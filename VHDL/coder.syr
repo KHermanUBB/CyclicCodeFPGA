@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: coder.prj
 
@@ -138,11 +138,9 @@ WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 75: state
 
 Elaborating entity <csection> (architecture <Behavioral>) from library <work>.
 WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\csection.vhd" Line 28: rst should be on the sensitivity list of the process
-WARNING:HDLCompiler:1127 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 105: Assignment to d1 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 106: Assignment to d2 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 111: Assignment to d0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 116: Assignment to d1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 117: Assignment to d2 ignored, since the identifier is never used
 WARNING:HDLCompiler:634 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 29: Net <q2> does not have a driver.
-WARNING:HDLCompiler:634 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 38: Net <din[3]> does not have a driver.
 WARNING:HDLCompiler:634 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" Line 40: Net <gi[3]> does not have a driver.
 WARNING:Xst:2972 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" line 92. All outputs of instance <gen_code_label[0].Csec> of block <csection> are unconnected in block <coder>. Underlying logic will be removed.
 WARNING:Xst:2972 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" line 92. All outputs of instance <gen_code_label[1].Csec> of block <csection> are unconnected in block <coder>. Underlying logic will be removed.
@@ -157,11 +155,7 @@ Synthesizing Unit <coder>.
     Related source file is "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd".
         N = 7
         K = 4
-INFO:Xst:3210 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" line 92: Output port <q> of the instance <gen_code_label[0].Csec> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" line 92: Output port <q> of the instance <gen_code_label[1].Csec> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" line 92: Output port <q> of the instance <gen_code_label[2].Csec> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" line 92: Output port <q> of the instance <gen_code_label[3].Csec> is unconnected or connected to loadless signal.
-WARNING:Xst:653 - Signal <din> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <gi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <q2> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
@@ -657,14 +651,14 @@ clk            |         |         |    2.684|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.12 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.90 secs
  
 --> 
 
 Total memory usage is 4522728 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   23 (   0 filtered)
-Number of infos    :    6 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
 
