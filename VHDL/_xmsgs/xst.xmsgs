@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/sr.vhd" Line 21: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/sr.vhd" Line 23: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/sr.vhd" Line 24: <arg fmt="%s" index="1">msg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/dff.vhd" Line 21: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd" Line 66: Assignment to <arg fmt="%s" index="1">aux1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd" Line 23: Net &lt;<arg fmt="%s" index="1">ctrl0</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd" Line 24: Net &lt;<arg fmt="%s" index="1">load</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">46</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">sr0</arg>&gt; of block &lt;<arg fmt="%s" index="4">sr</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">49</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">df0</arg>&gt; of block &lt;<arg fmt="%s" index="4">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">50</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">df1</arg>&gt; of block &lt;<arg fmt="%s" index="4">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">df2</arg>&gt; of block &lt;<arg fmt="%s" index="4">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ctrl0</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ctrl2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">load</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+</messages>
+
