@@ -14,6 +14,7 @@ end sr;
 architecture Behavioral of sr is
 
 signal shift: std_logic_vector(3 downto 0);
+
 begin
 
     process (clk)

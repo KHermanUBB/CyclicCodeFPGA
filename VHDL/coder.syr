@@ -1,18 +1,21 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (lin)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to xst/projnav.tmp
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.06 secs
  
---> Parameter xsthdpdir set to xst
+--> 
+Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.06 secs
  
---> Reading design: coder.prj
+--> 
+Reading design: coder.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -105,16 +108,16 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd" into library work
 Parsing entity <sr>.
 Parsing architecture <Behavioral> of entity <sr>.
-Parsing VHDL file "F:\ISE\CyclicCodeFPGA\VHDL\dff.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/dff.vhd" into library work
 Parsing entity <dff>.
 Parsing architecture <Behavioral> of entity <dff>.
-Parsing VHDL file "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" into library work
 Parsing entity <control>.
 Parsing architecture <Behavioral> of entity <control>.
-Parsing VHDL file "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/main.vhd" into library work
 Parsing entity <coder>.
 Parsing architecture <Behavioral> of entity <coder>.
 
@@ -125,32 +128,32 @@ Parsing architecture <Behavioral> of entity <coder>.
 Elaborating entity <coder> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <sr> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 21: rst should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 23: load should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 24: msg should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd" Line 22: rst should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd" Line 24: load should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd" Line 25: msg should be on the sensitivity list of the process
 
-Elaborating entity <control> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 36: state should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 38: en should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 46: cntk should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 52: cntk should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 70: state should be on the sensitivity list of the process
+Elaborating entity <control> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" Line 41: state should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" Line 43: en should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" Line 51: cntk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" Line 57: cntk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" Line 75: state should be on the sensitivity list of the process
 
 Elaborating entity <dff> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "F:\ISE\CyclicCodeFPGA\VHDL\dff.vhd" Line 21: rst should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/dff.vhd" Line 21: rst should be on the sensitivity list of the process
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <coder>.
-    Related source file is "F:\ISE\CyclicCodeFPGA\VHDL\main.vhd".
+    Related source file is "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/main.vhd".
     Summary:
-	inferred   2 Multiplexer(s).
+	inferred   3 Multiplexer(s).
 Unit <coder> synthesized.
 
 Synthesizing Unit <sr>.
-    Related source file is "F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd".
+    Related source file is "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd".
     Found 1-bit register for signal <shift<3>>.
     Found 1-bit register for signal <shift<2>>.
     Found 1-bit register for signal <shift<1>>.
@@ -161,9 +164,11 @@ Synthesizing Unit <sr>.
 Unit <sr> synthesized.
 
 Synthesizing Unit <control>.
-    Related source file is "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd".
+    Related source file is "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd".
+        N = 7
+        K = 3
     Found 3-bit register for signal <state>.
-    Found 5-bit register for signal <cntk>.
+    Found 4-bit register for signal <cntk>.
 INFO:Xst:1799 - State s4 is never reached in FSM <state>.
     Found finite state machine <FSM_0> for signal <state>.
     -----------------------------------------------------------------------
@@ -179,18 +184,18 @@ INFO:Xst:1799 - State s4 is never reached in FSM <state>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 5-bit adder for signal <cntk[4]_GND_7_o_add_13_OUT> created at line 73.
-    Found 5-bit comparator greater for signal <GND_7_o_cntk[4]_LessThan_3_o> created at line 46
-    Found 5-bit comparator greater for signal <GND_7_o_cntk[4]_LessThan_5_o> created at line 52
+    Found 4-bit adder for signal <cntk[3]_GND_8_o_add_13_OUT> created at line 78.
+    Found 4-bit comparator greater for signal <GND_8_o_cntk[3]_LessThan_3_o> created at line 51
+    Found 4-bit comparator greater for signal <GND_8_o_cntk[3]_LessThan_5_o> created at line 57
     Summary:
 	inferred   1 Adder/Subtractor(s).
-	inferred   5 D-type flip-flop(s).
+	inferred   4 D-type flip-flop(s).
 	inferred   2 Comparator(s).
 	inferred   1 Finite State Machine(s).
 Unit <control> synthesized.
 
 Synthesizing Unit <dff>.
-    Related source file is "F:\ISE\CyclicCodeFPGA\VHDL\dff.vhd".
+    Related source file is "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/dff.vhd".
     Found 1-bit register for signal <q>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -201,14 +206,14 @@ HDL Synthesis Report
 
 Macro Statistics
 # Adders/Subtractors                                   : 1
- 5-bit adder                                           : 1
+ 4-bit adder                                           : 1
 # Registers                                            : 8
  1-bit register                                        : 7
- 5-bit register                                        : 1
+ 4-bit register                                        : 1
 # Comparators                                          : 2
- 5-bit comparator greater                              : 2
-# Multiplexers                                         : 6
- 1-bit 2-to-1 multiplexer                              : 6
+ 4-bit comparator greater                              : 2
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 7
 # FSMs                                                 : 1
 # Xors                                                 : 2
  1-bit xor2                                            : 2
@@ -229,13 +234,13 @@ Advanced HDL Synthesis Report
 
 Macro Statistics
 # Counters                                             : 1
- 5-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
 # Registers                                            : 7
  Flip-Flops                                            : 7
 # Comparators                                          : 2
- 5-bit comparator greater                              : 2
-# Multiplexers                                         : 6
- 1-bit 2-to-1 multiplexer                              : 6
+ 4-bit comparator greater                              : 2
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 7
 # FSMs                                                 : 1
 # Xors                                                 : 2
  1-bit xor2                                            : 2
@@ -279,10 +284,10 @@ WARNING:Xst:3002 - This design contains one or more registers/latches that are d
   Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
 
   List of register instances with asynchronous set and reset:
-    shift_3 in unit <sr>
-    shift_2 in unit <sr>
-    shift_1 in unit <sr>
     shift_0 in unit <sr>
+    shift_1 in unit <sr>
+    shift_2 in unit <sr>
+    shift_3 in unit <sr>
 
 
 Optimizing unit <coder> ...
@@ -299,8 +304,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 18
- Flip-Flops                                            : 18
+# Registers                                            : 17
+ Flip-Flops                                            : 17
 
 =========================================================================
 
@@ -323,16 +328,16 @@ Top Level Output File Name         : coder.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 27
+# BELS                             : 25
 #      INV                         : 2
-#      LUT2                        : 2
-#      LUT3                        : 3
-#      LUT4                        : 12
-#      LUT5                        : 6
+#      LUT2                        : 1
+#      LUT3                        : 5
+#      LUT4                        : 10
+#      LUT5                        : 5
 #      LUT6                        : 1
 #      VCC                         : 1
-# FlipFlops/Latches                : 22
-#      FDC                         : 11
+# FlipFlops/Latches                : 21
+#      FDC                         : 10
 #      FDCE                        : 3
 #      FDP                         : 4
 #      LDC                         : 4
@@ -349,15 +354,15 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              22  out of  18224     0%  
- Number of Slice LUTs:                   26  out of   9112     0%  
-    Number used as Logic:                26  out of   9112     0%  
+ Number of Slice Registers:              21  out of  18224     0%  
+ Number of Slice LUTs:                   24  out of   9112     0%  
+    Number used as Logic:                24  out of   9112     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     34
-   Number with an unused Flip Flop:      12  out of     34    35%  
-   Number with an unused LUT:             8  out of     34    23%  
-   Number of fully used LUT-FF pairs:    14  out of     34    41%  
+ Number of LUT Flip Flop pairs used:     31
+   Number with an unused Flip Flop:      10  out of     31    32%  
+   Number with an unused LUT:             7  out of     31    22%  
+   Number of fully used LUT-FF pairs:    14  out of     31    45%  
    Number of unique control sets:        15
 
 IO Utilization: 
@@ -388,11 +393,11 @@ Clock Information:
 -----------------------------------------------------+-------------------------+-------+
 Clock Signal                                         | Clock buffer(FF name)   | Load  |
 -----------------------------------------------------+-------------------------+-------+
-clk                                                  | BUFGP                   | 18    |
-sr0/load_msg[3]_AND_5_o(sr0/load_msg[3]_AND_5_o1:O)  | NONE(*)(sr0/shift_3_LDC)| 1     |
-sr0/load_msg[2]_AND_7_o(sr0/load_msg[2]_AND_7_o1:O)  | NONE(*)(sr0/shift_2_LDC)| 1     |
-sr0/load_msg[1]_AND_9_o(sr0/load_msg[1]_AND_9_o1:O)  | NONE(*)(sr0/shift_1_LDC)| 1     |
+clk                                                  | BUFGP                   | 17    |
 sr0/load_msg[0]_AND_11_o(sr0/load_msg[0]_AND_11_o1:O)| NONE(*)(sr0/shift_0_LDC)| 1     |
+sr0/load_msg[1]_AND_9_o(sr0/load_msg[1]_AND_9_o1:O)  | NONE(*)(sr0/shift_1_LDC)| 1     |
+sr0/load_msg[2]_AND_7_o(sr0/load_msg[2]_AND_7_o1:O)  | NONE(*)(sr0/shift_2_LDC)| 1     |
+sr0/load_msg[3]_AND_5_o(sr0/load_msg[3]_AND_5_o1:O)  | NONE(*)(sr0/shift_3_LDC)| 1     |
 -----------------------------------------------------+-------------------------+-------+
 (*) These 4 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -407,10 +412,10 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 2.778ns (Maximum Frequency: 359.984MHz)
-   Minimum input arrival time before clock: 3.723ns
-   Maximum output required time after clock: 5.126ns
-   Maximum combinational path delay: No path found
+   Minimum period: 2.792ns (Maximum Frequency: 358.121MHz)
+   Minimum input arrival time before clock: 3.746ns
+   Maximum output required time after clock: 5.765ns
+   Maximum combinational path delay: 5.947ns
 
 Timing Details:
 ---------------
@@ -418,10 +423,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 2.778ns (frequency: 359.984MHz)
-  Total number of paths / destination ports: 87 / 34
+  Clock period: 2.792ns (frequency: 358.121MHz)
+  Total number of paths / destination ports: 76 / 32
 -------------------------------------------------------------------------
-Delay:               2.778ns (Levels of Logic = 1)
+Delay:               2.792ns (Levels of Logic = 1)
   Source:            FSM0/state_FSM_FFd1 (FF)
   Destination:       FSM0/cntk_0 (FF)
   Source Clock:      clk rising
@@ -431,98 +436,38 @@ Delay:               2.778ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             15   0.447   0.981  FSM0/state_FSM_FFd1 (FSM0/state_FSM_FFd1)
-     INV:I->O              5   0.206   0.714  FSM0/GND_7_o_GND_7_o_OR_5_o1_INV_0 (FSM0/GND_7_o_GND_7_o_OR_5_o)
+     FDC:C->Q             17   0.447   1.027  FSM0/state_FSM_FFd1 (FSM0/state_FSM_FFd1)
+     INV:I->O              4   0.206   0.683  FSM0/GND_8_o_GND_8_o_OR_5_o1_INV_0 (FSM0/GND_8_o_GND_8_o_OR_5_o)
      FDC:CLR                   0.430          FSM0/cntk_0
     ----------------------------------------
-    Total                      2.778ns (1.083ns logic, 1.695ns route)
-                                       (39.0% logic, 61.0% route)
+    Total                      2.792ns (1.083ns logic, 1.709ns route)
+                                       (38.8% logic, 61.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 28 / 20
 -------------------------------------------------------------------------
-Offset:              3.723ns (Levels of Logic = 2)
+Offset:              3.746ns (Levels of Logic = 2)
   Source:            rst (PAD)
-  Destination:       sr0/shift_2_C_2 (FF)
+  Destination:       sr0/shift_0_C_0 (FF)
   Destination Clock: clk rising
 
-  Data Path: rst to sr0/shift_2_C_2
+  Data Path: rst to sr0/shift_0_C_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            16   1.222   1.252  rst_IBUF (rst_IBUF)
-     LUT4:I0->O            2   0.203   0.616  sr0/load_msg[0]_AND_12_o1 (sr0/load_msg[0]_AND_12_o)
-     FDC:CLR                   0.430          sr0/shift_0_C_0
-    ----------------------------------------
-    Total                      3.723ns (1.855ns logic, 1.868ns route)
-                                       (49.8% logic, 50.2% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[3]_AND_5_o'
-  Total number of paths / destination ports: 2 / 1
--------------------------------------------------------------------------
-Offset:              3.706ns (Levels of Logic = 2)
-  Source:            rst (PAD)
-  Destination:       sr0/shift_3_LDC (LATCH)
-  Destination Clock: sr0/load_msg[3]_AND_5_o falling
-
-  Data Path: rst to sr0/shift_3_LDC
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            16   1.222   1.233  rst_IBUF (rst_IBUF)
-     LUT4:I1->O            2   0.205   0.616  sr0/load_msg[3]_AND_6_o1 (sr0/load_msg[3]_AND_6_o)
-     LDC:CLR                   0.430          sr0/shift_3_LDC
-    ----------------------------------------
-    Total                      3.706ns (1.857ns logic, 1.849ns route)
-                                       (50.1% logic, 49.9% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[2]_AND_7_o'
-  Total number of paths / destination ports: 2 / 1
--------------------------------------------------------------------------
-Offset:              3.723ns (Levels of Logic = 2)
-  Source:            rst (PAD)
-  Destination:       sr0/shift_2_LDC (LATCH)
-  Destination Clock: sr0/load_msg[2]_AND_7_o falling
-
-  Data Path: rst to sr0/shift_2_LDC
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            16   1.222   1.252  rst_IBUF (rst_IBUF)
-     LUT4:I0->O            2   0.203   0.616  sr0/load_msg[2]_AND_8_o1 (sr0/load_msg[2]_AND_8_o)
-     LDC:CLR                   0.430          sr0/shift_2_LDC
-    ----------------------------------------
-    Total                      3.723ns (1.855ns logic, 1.868ns route)
-                                       (49.8% logic, 50.2% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[1]_AND_9_o'
-  Total number of paths / destination ports: 2 / 1
--------------------------------------------------------------------------
-Offset:              3.723ns (Levels of Logic = 2)
-  Source:            rst (PAD)
-  Destination:       sr0/shift_1_LDC (LATCH)
-  Destination Clock: sr0/load_msg[1]_AND_9_o falling
-
-  Data Path: rst to sr0/shift_1_LDC
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            16   1.222   1.252  rst_IBUF (rst_IBUF)
+     IBUF:I->O            17   1.222   1.275  rst_IBUF (rst_IBUF)
      LUT4:I0->O            2   0.203   0.616  sr0/load_msg[1]_AND_10_o1 (sr0/load_msg[1]_AND_10_o)
-     LDC:CLR                   0.430          sr0/shift_1_LDC
+     FDC:CLR                   0.430          sr0/shift_1_C_1
     ----------------------------------------
-    Total                      3.723ns (1.855ns logic, 1.868ns route)
-                                       (49.8% logic, 50.2% route)
+    Total                      3.746ns (1.855ns logic, 1.891ns route)
+                                       (49.5% logic, 50.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[0]_AND_11_o'
   Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
-Offset:              3.723ns (Levels of Logic = 2)
+Offset:              3.746ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       sr0/shift_0_LDC (LATCH)
   Destination Clock: sr0/load_msg[0]_AND_11_o falling
@@ -531,52 +476,133 @@ Offset:              3.723ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            16   1.222   1.252  rst_IBUF (rst_IBUF)
+     IBUF:I->O            17   1.222   1.275  rst_IBUF (rst_IBUF)
      LUT4:I0->O            2   0.203   0.616  sr0/load_msg[0]_AND_12_o1 (sr0/load_msg[0]_AND_12_o)
      LDC:CLR                   0.430          sr0/shift_0_LDC
     ----------------------------------------
-    Total                      3.723ns (1.855ns logic, 1.868ns route)
-                                       (49.8% logic, 50.2% route)
+    Total                      3.746ns (1.855ns logic, 1.891ns route)
+                                       (49.5% logic, 50.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 4 / 1
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[1]_AND_9_o'
+  Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
-Offset:              5.126ns (Levels of Logic = 2)
-  Source:            FSM0/state_FSM_FFd1 (FF)
-  Destination:       out_o (PAD)
-  Source Clock:      clk rising
+Offset:              3.746ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       sr0/shift_1_LDC (LATCH)
+  Destination Clock: sr0/load_msg[1]_AND_9_o falling
 
-  Data Path: FSM0/state_FSM_FFd1 to out_o
+  Data Path: rst to sr0/shift_1_LDC
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             15   0.447   1.326  FSM0/state_FSM_FFd1 (FSM0/state_FSM_FFd1)
-     LUT5:I0->O            1   0.203   0.579  Mmux_out_o11 (out_o_OBUF)
-     OBUF:I->O                 2.571          out_o_OBUF (out_o)
+     IBUF:I->O            17   1.222   1.275  rst_IBUF (rst_IBUF)
+     LUT4:I0->O            2   0.203   0.616  sr0/load_msg[1]_AND_10_o1 (sr0/load_msg[1]_AND_10_o)
+     LDC:CLR                   0.430          sr0/shift_1_LDC
     ----------------------------------------
-    Total                      5.126ns (3.221ns logic, 1.905ns route)
-                                       (62.8% logic, 37.2% route)
+    Total                      3.746ns (1.855ns logic, 1.891ns route)
+                                       (49.5% logic, 50.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'sr0/load_msg[3]_AND_5_o'
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[2]_AND_7_o'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              3.746ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       sr0/shift_2_LDC (LATCH)
+  Destination Clock: sr0/load_msg[2]_AND_7_o falling
+
+  Data Path: rst to sr0/shift_2_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.222   1.275  rst_IBUF (rst_IBUF)
+     LUT4:I0->O            2   0.203   0.616  sr0/load_msg[2]_AND_8_o1 (sr0/load_msg[2]_AND_8_o)
+     LDC:CLR                   0.430          sr0/shift_2_LDC
+    ----------------------------------------
+    Total                      3.746ns (1.855ns logic, 1.891ns route)
+                                       (49.5% logic, 50.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sr0/load_msg[3]_AND_5_o'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              3.746ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       sr0/shift_3_LDC (LATCH)
+  Destination Clock: sr0/load_msg[3]_AND_5_o falling
+
+  Data Path: rst to sr0/shift_3_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.222   1.275  rst_IBUF (rst_IBUF)
+     LUT4:I0->O            2   0.203   0.616  sr0/load_msg[3]_AND_6_o1 (sr0/load_msg[3]_AND_6_o)
+     LDC:CLR                   0.430          sr0/shift_3_LDC
+    ----------------------------------------
+    Total                      3.746ns (1.855ns logic, 1.891ns route)
+                                       (49.5% logic, 50.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sr0/load_msg[0]_AND_11_o'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              4.749ns (Levels of Logic = 2)
-  Source:            sr0/shift_3_LDC (LATCH)
+Offset:              5.765ns (Levels of Logic = 3)
+  Source:            sr0/shift_0_LDC (LATCH)
   Destination:       out_o (PAD)
-  Source Clock:      sr0/load_msg[3]_AND_5_o falling
+  Source Clock:      sr0/load_msg[0]_AND_11_o falling
 
-  Data Path: sr0/shift_3_LDC to out_o
+  Data Path: sr0/shift_0_LDC to out_o
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDC:G->Q              3   0.498   0.898  sr0/shift_3_LDC (sr0/shift_3_LDC)
+     LDC:G->Q              2   0.498   0.845  sr0/shift_0_LDC (sr0/shift_0_LDC)
+     LUT3:I0->O            2   0.205   0.864  sr0/shift_01 (sr0/shift_0)
      LUT5:I1->O            1   0.203   0.579  Mmux_out_o11 (out_o_OBUF)
      OBUF:I->O                 2.571          out_o_OBUF (out_o)
     ----------------------------------------
-    Total                      4.749ns (3.272ns logic, 1.477ns route)
-                                       (68.9% logic, 31.1% route)
+    Total                      5.765ns (3.477ns logic, 2.288ns route)
+                                       (60.3% logic, 39.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5 / 1
+-------------------------------------------------------------------------
+Offset:              5.588ns (Levels of Logic = 3)
+  Source:            sr0/shift_0_C_0 (FF)
+  Destination:       out_o (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sr0/shift_0_C_0 to out_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.721  sr0/shift_0_C_0 (sr0/shift_0_C_0)
+     LUT3:I1->O            2   0.203   0.864  sr0/shift_01 (sr0/shift_0)
+     LUT5:I1->O            1   0.203   0.579  Mmux_out_o11 (out_o_OBUF)
+     OBUF:I->O                 2.571          out_o_OBUF (out_o)
+    ----------------------------------------
+    Total                      5.588ns (3.424ns logic, 2.164ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               5.947ns (Levels of Logic = 3)
+  Source:            rst (PAD)
+  Destination:       out_o (PAD)
+
+  Data Path: rst to out_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.222   1.372  rst_IBUF (rst_IBUF)
+     LUT5:I0->O            1   0.203   0.579  Mmux_out_o11 (out_o_OBUF)
+     OBUF:I->O                 2.571          out_o_OBUF (out_o)
+    ----------------------------------------
+    Total                      5.947ns (3.996ns logic, 1.951ns route)
+                                       (67.2% logic, 32.8% route)
 
 =========================================================================
 
@@ -588,11 +614,11 @@ Clock to Setup on destination clock clk
                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------+---------+---------+---------+---------+
-clk                     |    2.778|         |         |         |
-sr0/load_msg[0]_AND_11_o|         |    1.667|         |         |
-sr0/load_msg[1]_AND_9_o |         |    2.435|         |         |
-sr0/load_msg[2]_AND_7_o |         |    2.469|         |         |
-sr0/load_msg[3]_AND_5_o |         |    1.684|         |         |
+clk                     |    2.792|         |         |         |
+sr0/load_msg[0]_AND_11_o|         |    2.472|         |         |
+sr0/load_msg[1]_AND_9_o |         |    2.469|         |         |
+sr0/load_msg[2]_AND_7_o |         |    2.435|         |         |
+sr0/load_msg[3]_AND_5_o |         |    1.667|         |         |
 ------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sr0/load_msg[0]_AND_11_o
@@ -600,7 +626,7 @@ Clock to Setup on destination clock sr0/load_msg[0]_AND_11_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |         |         |    2.684|         |
+clk            |         |         |    2.734|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sr0/load_msg[1]_AND_9_o
@@ -608,7 +634,7 @@ Clock to Setup on destination clock sr0/load_msg[1]_AND_9_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |         |         |    2.684|         |
+clk            |         |         |    2.734|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sr0/load_msg[2]_AND_7_o
@@ -616,7 +642,7 @@ Clock to Setup on destination clock sr0/load_msg[2]_AND_7_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |         |         |    2.684|         |
+clk            |         |         |    2.734|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sr0/load_msg[3]_AND_5_o
@@ -624,18 +650,19 @@ Clock to Setup on destination clock sr0/load_msg[3]_AND_5_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |         |         |    2.684|         |
+clk            |         |         |    2.734|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.02 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.50 secs
  
 --> 
 
-Total memory usage is 4522728 kilobytes
+
+Total memory usage is 130132 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   10 (   0 filtered)

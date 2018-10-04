@@ -50,6 +50,8 @@ architecture Behavioral of coder is
  end component;
 -- state machine component 
  component control 
+    generic(N: integer:= 7;
+	        K: integer:= 3);
 	port(clk:   in  std_logic;
 	     rst:   in  std_logic;
         en:    in  std_logic;
@@ -64,7 +66,8 @@ begin
 -- shift register
    sr0: sr port map(clk, rst, msg, load, msg_in);
 -- state machine 
-   FSM0: control port map(clk, rst, en, ctrl0, ctrl2, load);
+   FSM0: control generic map(N=>7, K=>3)
+                 port map(clk, rst, en, ctrl0, ctrl2, load);
 -- registers
    df0: dff port map(clk, rst, d0, ce0, q0);
    df1: dff port map(clk, rst, d1, ce1, q1);

@@ -3,14 +3,18 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_unsigned.all;
+use ieee.math_real.all;
+
 
 entity control is
+    generic(N: integer:= 7;
+		    K: integer:= 3);
 	port(clk:   in  std_logic;
 	     rst:   in  std_logic;
-        en:    in  std_logic;
-        ctrl0: out std_logic;
-        ctrl2: out std_logic;	
-        load:  out std_logic		 
+         en:    in  std_logic;
+         ctrl0: out std_logic;
+         ctrl2: out std_logic;	
+         load:  out std_logic		 
 		 );
 end control;
 
@@ -18,7 +22,8 @@ architecture Behavioral of control is
 
 	type statetype is (S0, S1, S2, S3, S4);
 	signal state, nextstate: statetype;
-	signal cntk: std_logic_vector(4 downto 0);
+    constant nbits : natural := integer(ceil(log2(real(7))));
+	signal cntk: std_logic_vector(nbits downto 0);
 begin
 -- state register
 	process(clk, rst) 
@@ -43,13 +48,13 @@ begin
 		when S1 =>
 				nextstate <= S2; 
 		when S2 =>
-			if cntk > "00100" then 
+			if cntk > K then 
 				nextstate <=  S3;
 			else
 				nextstate <= S2;
 			end if;
 		when S3 => 
-			if cntk > "00111" then 
+			if cntk > N then 
 				nextstate <=  S0;
 			else
 				nextstate <= S3;

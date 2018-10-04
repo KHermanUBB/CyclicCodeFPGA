@@ -1,5 +1,5 @@
-set -tmpdir "F:/ISE/CyclicCodeFPGA/VHDL/xst/projnav.tmp"
-set -xsthdpdir "F:/ISE/CyclicCodeFPGA/VHDL/xst"
+set -tmpdir "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/xst/projnav.tmp"
+set -xsthdpdir "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/xst"
 run -compileonly yes
 -p xc6slx16-3-csg324
 -top control

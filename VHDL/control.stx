@@ -1,18 +1,21 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (lin)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to F:/ISE/CyclicCodeFPGA/VHDL/xst/projnav.tmp
+--> 
+Parameter TMPDIR set to /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.06 secs
  
---> Parameter xsthdpdir set to F:/ISE/CyclicCodeFPGA/VHDL/xst
+--> 
+Parameter xsthdpdir set to /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.06 secs
  
---> Reading design: control.prj
+--> 
+Reading design: control.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,17 +42,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" into library work
+Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" into library work
 Parsing entity <control>.
 Parsing architecture <Behavioral> of entity <control>.
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.01 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.69 secs
  
 --> 
 
-Total memory usage is 4483800 kilobytes
+
+Total memory usage is 102768 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
