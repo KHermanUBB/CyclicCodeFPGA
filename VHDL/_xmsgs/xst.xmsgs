@@ -5,46 +5,58 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/sr.vhd" Line 21: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 21: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/sr.vhd" Line 23: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 23: <arg fmt="%s" index="1">load</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/sr.vhd" Line 24: <arg fmt="%s" index="1">msg</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\sr.vhd" Line 24: <arg fmt="%s" index="1">msg</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/dff.vhd" Line 21: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 36: <arg fmt="%s" index="1">state</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd" Line 66: Assignment to <arg fmt="%s" index="1">aux1</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 38: <arg fmt="%s" index="1">en</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd" Line 23: Net &lt;<arg fmt="%s" index="1">ctrl0</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 46: <arg fmt="%s" index="1">cntk</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd" Line 24: Net &lt;<arg fmt="%s" index="1">load</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 52: <arg fmt="%s" index="1">cntk</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">46</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">sr0</arg>&gt; of block &lt;<arg fmt="%s" index="4">sr</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 70: <arg fmt="%s" index="1">state</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">49</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">df0</arg>&gt; of block &lt;<arg fmt="%s" index="4">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"F:\ISE\CyclicCodeFPGA\VHDL\dff.vhd" Line 21: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">50</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">df1</arg>&gt; of block &lt;<arg fmt="%s" index="4">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+<msg type="info" file="Xst" num="1799" delta="new" >State <arg fmt="%s" index="1">s4</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">state</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/FPGA/WashiCoder/codigos/FPGA/main.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">df2</arg>&gt; of block &lt;<arg fmt="%s" index="4">dff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">coder</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="Xst" num="3002" delta="new" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ctrl0</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ctrl2</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">load</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

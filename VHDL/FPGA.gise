@@ -31,8 +31,12 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="coder.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="coder.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="coder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="coder_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="coder_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="control.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="control.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="control.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dff.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dff.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="dff.xst"/>
@@ -83,13 +87,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1538503768" xil_pn:in_ck="-2048638214477463958" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-474943653694966058" xil_pn:start_ts="1538503760">
+    <transform xil_pn:end_ts="1538664893" xil_pn:in_ck="5987997460096544827" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-474943653694966058" xil_pn:start_ts="1538664887">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="coder.lso"/>
       <outfile xil_pn:name="coder.ngc"/>

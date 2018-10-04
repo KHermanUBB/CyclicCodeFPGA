@@ -47,13 +47,24 @@ architecture Behavioral of coder is
 		  msg:   in std_logic_vector(3 downto 0);
 		  load:  in std_logic;
 		  q:     out std_logic);
-   end component;
-	
+ end component;
+-- state machine component 
+ component control 
+	port(clk:   in  std_logic;
+	     rst:   in  std_logic;
+        en:    in  std_logic;
+        ctrl0: out std_logic;
+        ctrl2: out std_logic;	
+        load:  out std_logic		 
+		 );
+ end component;	
+ 
 begin
 
 -- shift register
    sr0: sr port map(clk, rst, msg, load, msg_in);
 -- state machine 
+FSM0: control port map(clk, rst, en, ctrl0, ctrl2, load);
 -- registers
 	df0: dff port map(clk, rst, d0, ce0, q0);
 	df1: dff port map(clk, rst, d1, ce1, q1);
