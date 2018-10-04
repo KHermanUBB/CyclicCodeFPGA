@@ -1,17 +1,15 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe -prj /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder_beh.prj work.tb_coder 
-ISim P.20131013 (signature 0xfbc00daa)
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o F:/ISE/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe -prj F:/ISE/CyclicCodeFPGA/VHDL/tb_coder_beh.prj work.tb_coder 
+ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/sr.vhd" into library work
-Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/dff.vhd" into library work
-Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/control.vhd" into library work
-Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/main.vhd" into library work
-Parsing VHDL file "/home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder.vhd" into library work
+Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/sr.vhd" into library work
+Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/dff.vhd" into library work
+Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/control.vhd" into library work
+Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/main.vhd" into library work
+Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/tb_coder.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 39012 KB
-Fuse CPU Usage: 1490 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
@@ -23,8 +21,8 @@ Compiling architecture behavioral of entity dff [dff_default]
 Compiling architecture behavioral of entity coder [coder_default]
 Compiling architecture behavior of entity tb_coder
 Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
 Compiled 14 VHDL Units
-Built simulation executable /home/icarosix/FPGA/WashiCoder/codigos/CyclicCode/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe
-Fuse Memory Usage: 94388 KB
-Fuse CPU Usage: 1590 ms
-GCC CPU Usage: 1050 ms
+Built simulation executable F:/ISE/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe
+Fuse Memory Usage: 33736 KB
+Fuse CPU Usage: 468 ms

@@ -44,21 +44,21 @@ architecture Behavioral of coder is
  component sr 
 	port( clk:   in std_logic;
 	      rst:   in std_logic;
-		  msg:   in std_logic_vector(3 downto 0);
-		  load:  in std_logic;
-		  q:     out std_logic);
+		   msg:   in std_logic_vector(3 downto 0);
+		   load:  in std_logic;
+		   q:     out std_logic);
  end component;
 -- state machine component 
  component control 
-    generic(N: integer:= 7;
+   generic(N: integer:= 7;
 	        K: integer:= 3);
-	port(clk:   in  std_logic;
-	     rst:   in  std_logic;
-        en:    in  std_logic;
-        ctrl0: out std_logic;
-        ctrl2: out std_logic;	
-        load:  out std_logic		 
-		 );
+   port   (clk:   in  std_logic;
+			  rst:   in  std_logic;
+			  en:    in  std_logic;
+			  ctrl0: out std_logic;
+			  ctrl2: out std_logic;	
+			  load:  out std_logic		 
+			 );
  end component;	
  
 begin
@@ -78,7 +78,7 @@ begin
 	
 -- register interconection 
 	d1 <= q0 xor aux0;
-    d2 <= q1;	
+   d2 <= q1;	
 
 -- first mux
 	aux2 <= msg_in xor q2;
@@ -90,8 +90,6 @@ begin
     out_o <= aux1 when rst = '0' else '0';
 
 -- 	
-	
-	
-	
+
 end Behavioral;
 
