@@ -22,14 +22,30 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="FPGA.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="coder.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="coder.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="coder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coder.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="coder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="coder.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="coder.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="coder.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="coder.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="coder.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="coder.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="coder.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="coder.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="coder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="coder.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="coder.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="coder.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="coder.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="coder.xst"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="coder2.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="coder2.lso"/>
@@ -41,8 +57,20 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="coder2.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coder2_xst.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="coder_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="coder_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="coder_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coder_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="coder_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="coder_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="coder_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coder_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coder_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="coder_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="coder_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coder_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="coder_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="coder_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="coder_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="coder_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="control.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="control.stx"/>
@@ -74,6 +102,7 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_coder_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -85,6 +114,10 @@
     <transform xil_pn:end_ts="1538753212" xil_pn:in_ck="-1159639238276709920" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1538753212">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="control.vhd"/>
       <outfile xil_pn:name="csection.vhd"/>
       <outfile xil_pn:name="dff.vhd"/>
@@ -109,6 +142,11 @@
     <transform xil_pn:end_ts="1538753212" xil_pn:in_ck="-1159639238276709920" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1538753212">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="control.vhd"/>
       <outfile xil_pn:name="csection.vhd"/>
       <outfile xil_pn:name="dff.vhd"/>
@@ -121,6 +159,11 @@
     <transform xil_pn:end_ts="1538753215" xil_pn:in_ck="-1159639238276709920" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-64416881981226918" xil_pn:start_ts="1538753212">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -131,6 +174,9 @@
     <transform xil_pn:end_ts="1538753215" xil_pn:in_ck="8610891094909467504" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4790277235655834723" xil_pn:start_ts="1538753215">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_coder_isim_beh.wdb"/>
@@ -163,12 +209,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1538752406" xil_pn:in_ck="3769576728238644828" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-474943653694966058" xil_pn:start_ts="1538752400">
+    <transform xil_pn:end_ts="1538753747" xil_pn:in_ck="3769576728238644828" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-474943653694966058" xil_pn:start_ts="1538753740">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="coder.lso"/>
       <outfile xil_pn:name="coder.ngc"/>
@@ -182,6 +228,74 @@
       <outfile xil_pn:name="main.ngr"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1538753761" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6889078633223673125" xil_pn:start_ts="1538753761">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+    <transform xil_pn:end_ts="1538753766" xil_pn:in_ck="8834601970805929123" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-422081315225549048" xil_pn:start_ts="1538753761">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="coder.bld"/>
+      <outfile xil_pn:name="coder.ngd"/>
+      <outfile xil_pn:name="coder_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1538753777" xil_pn:in_ck="144098336819284" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1538753766">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="coder.pcf"/>
+      <outfile xil_pn:name="coder_map.map"/>
+      <outfile xil_pn:name="coder_map.mrp"/>
+      <outfile xil_pn:name="coder_map.ncd"/>
+      <outfile xil_pn:name="coder_map.ngm"/>
+      <outfile xil_pn:name="coder_map.xrpt"/>
+      <outfile xil_pn:name="coder_summary.xml"/>
+      <outfile xil_pn:name="coder_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1538753787" xil_pn:in_ck="4868549122469568877" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1538753777">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="coder.ncd"/>
+      <outfile xil_pn:name="coder.pad"/>
+      <outfile xil_pn:name="coder.par"/>
+      <outfile xil_pn:name="coder.ptwx"/>
+      <outfile xil_pn:name="coder.unroutes"/>
+      <outfile xil_pn:name="coder.xpi"/>
+      <outfile xil_pn:name="coder_pad.csv"/>
+      <outfile xil_pn:name="coder_pad.txt"/>
+      <outfile xil_pn:name="coder_par.xrpt"/>
+    </transform>
+    <transform xil_pn:in_ck="144098336819152" xil_pn:name="TRAN_fpgaFloorplanPostPAR" xil_pn:start_ts="1538753878">
+      <status xil_pn:value="ExecutingRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+    <transform xil_pn:end_ts="1538753787" xil_pn:in_ck="144098336819152" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1538753783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="coder.twr"/>
+      <outfile xil_pn:name="coder.twx"/>
     </transform>
   </transforms>
 
