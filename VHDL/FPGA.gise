@@ -165,10 +165,10 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_coder_beh.prj"/>
       <outfile xil_pn:name="tb_coder_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
@@ -178,9 +178,9 @@
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_coder_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1538406299" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1538406299">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -210,12 +210,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1538753747" xil_pn:in_ck="3769576728238644828" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-474943653694966058" xil_pn:start_ts="1538753740">
+    <transform xil_pn:end_ts="1538754282" xil_pn:in_ck="3769576728238644828" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-474943653694966058" xil_pn:start_ts="1538754276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="coder.lso"/>
       <outfile xil_pn:name="coder.ngc"/>
@@ -243,6 +241,7 @@
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
