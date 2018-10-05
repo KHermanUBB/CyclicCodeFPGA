@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "F:/ISE/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe" -prj "F:/ISE/CyclicCodeFPGA/VHDL/tb_coder_beh.prj" "work.tb_coder" 
+-intstyle "ise" -incremental -lib "secureip" -o "F:/ISE/CyclicCodeFPGA/VHDL/tb_coder2_isim_beh.exe" -prj "F:/ISE/CyclicCodeFPGA/VHDL/tb_coder2_beh.prj" "work.tb_coder2" 
