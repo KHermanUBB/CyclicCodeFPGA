@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-10-05T12:44:13</DateModified>
+  <DateModified>2018-10-05T12:59:21</DateModified>
   <ModuleName>coder</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2018-10-05T12:59:17</SummaryTimeStamp>
   <SavedFilePath>F:/ISE/CyclicCodeFPGA/VHDL/iseconfig/coder.xreport</SavedFilePath>
   <ImplementationReportsDirectory>F:/ISE/CyclicCodeFPGA/VHDL\</ImplementationReportsDirectory>
   <DateInitialized>2018-10-04T11:23:53</DateInitialized>
