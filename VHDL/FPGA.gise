@@ -93,6 +93,7 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="main_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="main_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="main_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sr.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sr.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="sr.xst"/>
@@ -240,7 +241,9 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="coder.bld"/>
@@ -280,8 +283,8 @@
       <outfile xil_pn:name="coder_pad.txt"/>
       <outfile xil_pn:name="coder_par.xrpt"/>
     </transform>
-    <transform xil_pn:in_ck="144098336819152" xil_pn:name="TRAN_fpgaFloorplanPostPAR" xil_pn:start_ts="1538753878">
-      <status xil_pn:value="ExecutingRun"/>
+    <transform xil_pn:end_ts="1538753879" xil_pn:in_ck="144098336819152" xil_pn:name="TRAN_fpgaFloorplanPostPAR" xil_pn:start_ts="1538753878">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
