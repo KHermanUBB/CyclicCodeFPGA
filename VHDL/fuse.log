@@ -4,7 +4,7 @@ Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
 Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/sr.vhd" into library work
-Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/dff.vhd" into library work
+Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/csection.vhd" into library work
 Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/control.vhd" into library work
 Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/main.vhd" into library work
 Parsing VHDL file "F:/ISE/CyclicCodeFPGA/VHDL/tb_coder.vhd" into library work
@@ -16,13 +16,13 @@ Compiling package std_logic_arith
 Compiling package std_logic_unsigned
 Compiling package math_real
 Compiling architecture behavioral of entity sr [sr_default]
-Compiling architecture behavioral of entity control [\control(7,3)\]
-Compiling architecture behavioral of entity dff [dff_default]
-Compiling architecture behavioral of entity coder [coder_default]
+Compiling architecture behavioral of entity control [\control(7,4)\]
+Compiling architecture behavioral of entity csection [csection_default]
+Compiling architecture behavioral of entity coder [\coder(7,4,1)\]
 Compiling architecture behavior of entity tb_coder
 Time Resolution for simulation is 1ps.
 Waiting for 2 sub-compilation(s) to finish...
 Compiled 14 VHDL Units
 Built simulation executable F:/ISE/CyclicCodeFPGA/VHDL/tb_coder_isim_beh.exe
-Fuse Memory Usage: 33736 KB
+Fuse Memory Usage: 34484 KB
 Fuse CPU Usage: 468 ms

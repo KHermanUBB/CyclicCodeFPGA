@@ -6,40 +6,46 @@
 -- en - global enable 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
 
 entity coder is
-    port(  clk: in std_logic;
+    generic(N: integer:=7;
+	         K: integer:=4;
+				G: integer:=1);   -- 001
+    port( clk: in std_logic;
 	       msg: in std_logic_vector(3 downto 0);
 	       rst: in std_logic;
-		   en:  in std_logic;
-		   out_o:  out std_logic);
+		    en:  in std_logic;
+		    out_o:  out std_logic);
 end coder;
 
 architecture Behavioral of coder is
 
 -- serialized input
  signal msg_in: std_logic;
--- ff inputs
- signal d0, d1, d2: std_logic;
 -- aux signals
- signal aux0, aux1, aux2: std_logic;
--- ff outputs
- signal q0, q1, q2: std_logic;
--- ff clock enables
- signal ce0, ce1, ce2: std_logic;
+ signal aux0, aux2: std_logic;
 -- control signals
  signal ctrl0, ctrl2: std_logic;
 -- load signal for shift register
  signal load: std_logic; 
  
--- d flip flop 
- component dff 
+ 
+ signal din: std_logic_vector(N-K-1 downto 0);
+ signal qout: std_logic_vector(N-K-1 downto 0);
+ signal gi: std_logic_vector(N-K-1 downto 0);
+
+-- csection for generate
+ component csection 
 	port( clk: in std_logic;
 	      rst: in std_logic;
+			d0:  in std_logic;
 			d:   in std_logic;
 			ce:  in std_logic;
+			gi:  in std_logic;
 			q:   out std_logic);
- end component;
+ end component; 
+
 -- shift register
  component sr 
 	port( clk:   in std_logic;
@@ -62,34 +68,46 @@ architecture Behavioral of coder is
  end component;	
  
 begin
+-- convert parameter to std logic vector
+   gi <= conv_std_logic_vector(G, gi'length);
 
 -- shift register
    sr0: sr port map(clk, rst, msg, load, msg_in);
 -- state machine 
-   FSM0: control generic map(N=>7, K=>3)
+   FSM0: control generic map(N=>7, K=>4)
                  port map(clk, rst, en, ctrl0, ctrl2, load);
--- registers
-   df0: dff port map(clk, rst, d0, ce0, q0);
-   df1: dff port map(clk, rst, d1, ce1, q1);
-   df2: dff port map(clk, rst, d2, ce2, q2);
-   ce0 <= ctrl0;
-   ce1 <= ctrl0;
-   ce2 <= ctrl0;
-	
--- register interconection 
-	d1 <= q0 xor aux0;
-   d2 <= q1;	
-
+					  
 -- first mux
-	aux2 <= msg_in xor q2;
+	aux2 <= msg_in xor qout(N-K-1);
 	aux0 <= aux2 when ctrl2 = '0' else '0';
-	d0 <= aux0;
+
+-- assign coder input  
+   din(0) <= aux0; 
 	
--- second mux
-	aux1 <= msg_in when ctrl2 = '0' else q2;
-    out_o <= aux1 when rst = '0' else '0';
+-- output mux
+	out_o <= msg_in when ctrl2 = '0' else qout(N-K-1);
+   
+-- Generate coder block and assign corresponding inputs
+gen_main_block:  
+  for index in 0 to N-K-1 generate  
+    begin  
+    Csec: csection    
+		port map( clk => clk,
+	             rst => rst,
+			       d0  => aux0,
+					 d   => din(index),
+			       ce  => ctrl0,
+			       gi  => gi(index),
+			       q   => qout(index)
+					);		
+   end generate; 
 
--- 	
-
+-- connect successive blocks	
+gen_connections:  
+  for ind in 1 to N-K-1 generate  
+    begin  
+         din(ind) <= qout(ind-1);		
+  end generate; 
+  
 end Behavioral;
 

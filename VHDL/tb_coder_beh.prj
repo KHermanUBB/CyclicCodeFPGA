@@ -1,5 +1,0 @@
-vhdl work "sr.vhd"
-vhdl work "dff.vhd"
-vhdl work "control.vhd"
-vhdl work "main.vhd"
-vhdl work "tb_coder.vhd"

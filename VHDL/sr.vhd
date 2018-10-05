@@ -17,7 +17,7 @@ signal shift: std_logic_vector(3 downto 0);
 
 begin
 
-    process (clk)
+    process (clk,rst, load)
     begin
 	     if rst  = '1' then
            shift(0) <= '0';

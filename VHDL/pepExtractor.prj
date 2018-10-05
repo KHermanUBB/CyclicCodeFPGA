@@ -1,4 +1,3 @@
-work	"control.vhd"
+work	"csection.vhd"
 work	"dff.vhd"
-work	"main.vhd"
-work	"sr.vhd"
+work	"main2.vhd"

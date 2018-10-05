@@ -141,7 +141,7 @@ LAB5:    goto LAB4;
 LAB7:    goto LAB5;
 
 LAB8:    xsi_set_current_line(64, ng0);
-    t2 = (t0 + 5680);
+    t2 = (t0 + 5700);
     t5 = (t0 + 3712);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
