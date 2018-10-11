@@ -61,9 +61,9 @@ BEGIN
      wait for 10 ns;
      rst <= '1';	
 	 wait for 10 ns;
-	 msg <= "1011";
+	 msg <= "1001";
      rst <= '0';
-	 wait for 10 ns;
+	 wait for 25 ns;
 	 en <= '1';
  	 wait for 10 ns;
 	 en <= '0';

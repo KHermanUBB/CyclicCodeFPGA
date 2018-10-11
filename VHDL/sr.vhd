@@ -21,10 +21,12 @@ begin
     begin
 	     if rst  = '1' then
            shift(0) <= '0';
-		  elsif load = '1' then 
-			  shift <= msg;
         elsif rising_edge(clk) then
-            shift <=  '0' & shift(3 downto 1);
+		      if load = '1' then 
+			      shift <= msg;
+				else	
+              shift <=  '0' & shift(3 downto 1);
+				end if;
         end if;
     end process;
 
