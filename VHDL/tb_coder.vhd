@@ -1,6 +1,7 @@
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
  
  
 ENTITY tb_coder IS
@@ -55,23 +56,26 @@ BEGIN
  
 
    -- Stimulus process
-   stim_proc: process
+stim_proc: process
    begin		
-      -- hold reset state for 100 ns.
+      -- hold reset state for 10 ns.
      wait for 10 ns;
      rst <= '1';	
-	 wait for 10 ns;
-	 msg <= "1001";
+	  wait for 10 ns;
      rst <= '0';
-	 wait for 25 ns;
-	 en <= '1';
- 	 wait for 10 ns;
-	 en <= '0';
 	 
+stimloop : for i in 0 to 15 loop
+
+				wait for 10 ns;
+				msg <= conv_std_logic_vector(i, msg'length); 
+				wait for 25 ns;
+				en <= '1';
+				wait for 10 ns;
+				en <= '0';
+				wait for 100 ns;
+
+           end loop stimloop;
 	 
-
-
-
       wait;
    end process;
 

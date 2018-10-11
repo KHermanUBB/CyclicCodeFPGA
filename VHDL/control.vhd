@@ -48,13 +48,13 @@ begin
 		when S1 =>
 				nextstate <= S2; 
 		when S2 =>
-			if cntk > K then 
+			if cntk > K-2 then 
 				nextstate <=  S3;
 			else
 				nextstate <= S2;
 			end if;
 		when S3 => 
-			if cntk > N then 
+			if cntk > N-2 then 
 				nextstate <=  S0;
 			else
 				nextstate <= S3;
