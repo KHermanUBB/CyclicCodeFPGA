@@ -1,0 +1,5 @@
+vhdl isim_temp "sr.vhd"
+vhdl isim_temp "csection.vhd"
+vhdl isim_temp "control.vhd"
+vhdl isim_temp "main.vhd"
+vhdl isim_temp "tb_coder.vhd"

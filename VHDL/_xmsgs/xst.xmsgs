@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\hw_top.vhd" Line 43: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 41: <arg fmt="%s" index="1">state</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 43: <arg fmt="%s" index="1">en</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 51: <arg fmt="%s" index="1">cntk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 57: <arg fmt="%s" index="1">cntk</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\control.vhd" Line 75: <arg fmt="%s" index="1">state</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"F:\ISE\CyclicCodeFPGA\VHDL\csection.vhd" Line 26: <arg fmt="%s" index="1">rst</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">s4</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">state</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cclk_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hw_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

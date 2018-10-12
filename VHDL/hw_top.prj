@@ -1,0 +1,5 @@
+vhdl work "sr.vhd"
+vhdl work "csection.vhd"
+vhdl work "control.vhd"
+vhdl work "main.vhd"
+vhdl work "hw_top.vhd"

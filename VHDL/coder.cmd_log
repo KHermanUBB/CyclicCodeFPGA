@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/ISE/CyclicCodeFPGA/VHDL/coder.xst" -ofn "F:/ISE/CyclicCodeFPGA/VHDL/coder.syr" 
