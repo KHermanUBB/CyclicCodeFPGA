@@ -51,9 +51,13 @@ clk_proc: process(clk)
 coder1: coder generic map(N=>7, K=>4, G=> 1)
               port map(cclk(15), sw, rst, en, tmp);
 
+-- output singls
+-- output divided clock
 Led <= cclk(15);
 JA(0) <= cclk(15);
+-- output enable btn
 JA(1) <= en;
+-- output coder 
 JA(2) <= tmp;
 
 cout <= tmp;
