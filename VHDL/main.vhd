@@ -11,7 +11,7 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 entity coder is
     generic(N: integer:=7;
 	         K: integer:=4;
-				G: integer:=1);   -- 001
+			 G: integer:=1);   -- 001
     port( clk: in std_logic;
 	       msg: in std_logic_vector(3 downto 0);
 	       rst: in std_logic;
